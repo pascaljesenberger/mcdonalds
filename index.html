@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"/>
+<script src="script.js" defer></script>
+<title>McDonald's</title>
+</head>
+<body>
+    <header>
+        <img class="main-logo" src="img/logo.png" />
+    </header>
+    <h1 class="title">McDonald’s, c’est des produits <span class="title-highlight">100% français</span>.</h1>
+    <div class="container">
+        <div class="card fries">
+            <p class="card-subtitle">Nos frites sont fabriquées à partir de pommes de terre 100% françaises !</p>
+            <img class="card-image" src="img/frites.png">
+        </div>
+        <div class="card burger">
+            <p class="card-subtitle">Les steaks hachés chez McDo sont 100% pur bœuf !</p>
+            <img class="card-image" src="img/burger.png">
+        </div>
+        <div class="card nuggets large">
+            <p class="card-subtitle">Nos McNuggets™ sont préparés à partir de filets de poulet 100% français !</p>
+            <img class="card-image" src="img/nuggets.png">
+        </div>
+    </div>
+	<p class=title-menus> Nos menus vedettes 🔥</p> 
+    <div class="menus-container">
+        <div class="menu-container">
+            <img class="menus-image" src="img/menu-bo.png">
+            <p class="menu-description">Le Menu Best Of™</p>
+        </div>
+        <div class="menu-container">
+            <img class="menus-image" src="img/menu-mbo.png">
+            <p class="menu-description">Le Menu Maxi Best Of™</p>
+        </div>
+        <div class="menu-container">
+            <img class="menus-image" src="img/menu-mcfirst.png">
+            <p class="menu-description">Le Menu McFirst™</p>
+        </div>
+    </div>
+    <a href="https://www.ubereats.com/fr/brand/mcdonalds" target="_blank" class="command-button">Commander en ligne</a>
+    <p class="title-frites">Des frites adaptées à toutes les faims 🍟</p>
+    <img src="img/frites-m.png" class="frites-img">
+    <div class="frites-size">
+        <label for="frites-s">
+            <input type="radio" name="frites" id="frites-s">
+            <span>Petite frite</span>
+        </label>
+        <label for="frites-m">
+            <input type="radio" name="frites" id="frites-m" checked>
+            <span>Moyenne frite</span>
+        </label>
+        <label for="frites-l">
+            <input type="radio" name="frites" id="frites-l">
+            <span>Grande frite</span>
+        </label>
+    </div>
+    <h2 class="title-quizz">Burger Quizz 🍔</h2>
+    <img class="quizz-image" src="img/quizz.png" alt="">
+    <p class="question">Quel est le nom de ce burger ?</p>
+    <div class="question-buttons">
+        <button class="question-button" id="a" type="button">Le Royal Cheese™</button>
+        <button class="question-button" id="b" type="button">Le Burger King™</button>
+		<button class="question-button" id="c" type="button">Le Big Tasty™</button>
+	</div>
+</body>
+</html>
